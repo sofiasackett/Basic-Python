@@ -2,6 +2,9 @@
 # CFRS 510
 # 18 April 2020
 
+# This program gets user input for a directory of interest, traverses that directory and all of its subdirectories
+# The program will look for jpeg files based on magic numbers and find any appended data, decode it, and then hash the original file
+
 def main():
     import os
     import binascii
